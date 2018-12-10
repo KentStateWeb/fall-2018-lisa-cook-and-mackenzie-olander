@@ -1,0 +1,433 @@
+body {
+  padding: 1em;
+  font-family: 'Pattaya',sans-serif;
+}
+
+div, section, main, aside, header, footer {
+  padding: .5em;
+  margin-bottom: 1em;
+  font-size:1.0em;
+}
+
+img{max-width:100%;}
+
+
+/* Navigation */
+nav{
+ background-color:#C3BDB9;
+ width:100%;
+}
+a{
+  color:white;
+  font-family:'Open Sans',sans-serif;
+  list-style:none;
+  text-decoration:none;
+}
+a:hover{
+  color:#3d272d;
+  text-decoration:none;
+}
+
+nav img{
+  margin:0px auto;
+  display:block;
+  max-width:70%;
+  padding:20px;
+}
+
+nav ul{
+  color:white;
+  font-family:'Open Sans',sans-serif;
+  list-style:none;
+  justify-content:space-evenly;
+  text-align:center;
+  padding:20px;
+  margin-top:0px;
+}
+
+
+/* Header */
+.home{
+  background-image: url("images/DSC_2869-Version2.jpg");
+  color:white;
+  font-size:15px;
+  background-size:cover;
+  background-position: center center;
+  min-height:300px;
+  padding-left:20px;
+}
+header h2{
+  font-size:50px;
+  margin: 0;
+}
+.avail{
+  background-image: url("images/DSC_3020-Version2.jpg");
+  color:white;
+  font-size:15px;
+  background-size:cover;
+  background-position: center center;
+  min-height:300px;
+  padding-left:20px;
+}
+.contactus{
+  background-image: url("images/contacthero.jpg");
+  color:white;
+  font-size:15px;
+  background-size:cover;
+  background-position: center center;
+  min-height:300px;
+  padding-left:20px;
+}
+.aboutus1{
+  background-image: url("images/hero2.jpg");
+  color:white;
+  font-size:15px;
+  background-size:cover;
+  background-position: center center;
+  min-height:300px;
+  padding-left:20px;
+}
+.camper{
+  background-image: url("images/DSC_2872-Version2.jpg");
+  color:white;
+  font-size:15px;
+  background-size:cover;
+  background-position: center center;
+  min-height:300px;
+  padding-left:20px;
+}
+.price{
+  background-image: url("images/DSC_2845-Version2.jpg");
+  color:white;
+  font-size:15px;
+  background-size:cover;
+  background-position: center center;
+  min-height:300px;
+  padding-left:20px;
+}
+
+/*Home Page ONLY*/
+.opening{
+  font-family:'Pattaya',sans-serif;
+  text-align:center;
+  color:#3d272d;
+}
+
+
+/*Pricing Page ONLY*/
+.pricing h3{
+  text-align:center;
+  color:#3d272d;
+  font-family:'Pattaya',sans-serif;
+  font-size:20px;
+}
+
+.pricing p{
+  text-align:center;
+  font-family:'Open Sans',sans-serif;
+  font-size:15px;
+}
+
+/*Contact Page ONLY*/
+.contactmap{
+  background-color:#C3BDB9;
+  width:100%;
+}
+/*Table*/
+table{
+  justify-content:space-evenly;
+  font-family:'Open Sans',sans-serif;
+  border:5px solid #887b76;
+  padding:10px;
+  background-color:#C3BDB9;
+  margin-bottom:30px;
+  width:100%;
+}
+td,th{
+  border:1px solid #75a2c3;
+  background-color:white;
+  text-align:center;
+  padding:5px;
+}
+th{
+  font-size:12px;
+  color:#3d272d;
+  background-color:#C17830;
+}
+td{
+  font-size:10px;
+}
+
+/*About Us Page ONLY*/
+.how2{
+  display: block;
+  margin: 0;
+  border:none;
+  padding: 5%;
+  padding-top: 0;
+  padding-right: 18%;
+}
+.review h4{
+  font-family:'Pattaya',sans-serif;
+  font-size:15px;
+}
+.box{
+  border: none;
+  background-color:#75a2c3;
+	padding: 2em;
+	margin: 1.5em;
+
+	}
+.box p{
+  color:white;
+}
+.box h4{
+  color:#3d272d;
+  padding:0;
+}
+
+.list{
+        font-family:'Open Sans',sans-serif;
+        font-size:14px;
+        font-weight: bold;
+
+      }
+      .what2{
+        justify-content: space-evenly;
+        list-style:none;
+        text-align:left;
+        font-family:'Open Sans',sans-serif;
+        font-size:12px;
+        list-style:disc;
+        list-style-position: outside;
+        line-height: 1.6;
+      }
+/*Main Content*/
+main{
+  font-family:'Open Sans',sans-serif;
+  text-align:center;
+  padding:30px;
+  background-color:#C3BDB9;
+  border:none;
+}
+main h4{
+  color:#C17830;
+  font-family:'Pattaya', sans-serif;
+  font-size:20px;
+  padding-left:20px;
+}
+main p{
+  font-size:12px;
+  padding-bottom:20px;
+  font-family:'Open Sans', sans-serif;
+  padding-left:20px;
+}
+main a{
+  margin:0;
+  padding:10px;
+  padding-top:10px;
+  text-align:left;
+}
+
+/*Section Info*/
+section h3{
+  text-align:left;
+  font-size:30px;
+  padding:0;
+  color:#C17830;
+}
+section ul{
+  list-style:none;
+  text-align:left;
+  font-family:'Open Sans',sans-serif;
+  font-size:14px;
+  display:inline-block;
+  padding:0;
+  margin:0;
+}
+section p{
+  font-size:12px;
+  font-family:'Open Sans',sans-serif;
+  color:#000000;
+  text-align:left;
+}
+section a{
+  color:#C17830;
+  font-weight: bold;
+}
+
+/*Meet the Vans Page ONLY*/
+.vans{
+  font-family:'Pattaya',sans-serif;
+  text-align:center;
+  color:#3d272d;
+}
+.vans p{
+  font-family:'Open Sans',sans-serif;
+  font-size:12px;
+
+}
+.meet ul{
+  list-style:none;
+  font-family:'Open Sans',sans-serif;
+  text-align:left;
+  font-size: 12px;
+  padding:5px;
+}
+
+.meet h4{
+  text-align:left;
+}
+.callus a{
+  color:#C17830;
+  font-size:20px;
+  padding:0;
+  margin:0 auto;
+}
+.callus a:hover{
+  color:#3d272d;
+  text-decoration:none;
+}
+/*Footer*/
+footer{
+  background-color:#C3BDB9;
+  font-size:10px;
+  color:white;
+  font-family:'Open Sans',sans-serif;
+  text-align:center;
+}
+footer ul{
+  display:inline-block;
+  list-style:none;
+}
+footer img{
+  width:30%;
+}
+footer h2{
+  font-size:12px;
+  color:#3d272d;
+}
+
+
+@media only screen and (min-width:740px) {
+    nav{
+      width:100%;
+      justify-content: space-around;
+    }
+
+    nav ul{
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    nav li{
+      font-size:12px;
+    }
+    nav li img{
+      width:50%;
+      padding:0;
+      margin:0 auto;
+    }
+    header img{
+      min-height:500px;
+      width:100%;
+    }
+    .opening{
+      font-size:30px;
+      padding-top:30px;
+      padding-bottom:30px;
+      display:flex;
+      justify-content:space-evenly;
+    }
+    .pricing{
+      font-size:25px;
+      padding:50px;
+      margin:20px;
+    }
+
+    .box{
+      width:33%;
+    }
+
+    main{
+      font-size:20px;
+      text-align:left;
+      display:flex;
+      justify-content:space-evenly;
+
+    }
+    main p{
+      text-align:left;
+      display:block;
+      padding-right:10px;
+    }
+    section{
+      text-align:left;
+    }
+
+    section ul{
+      display:flex;
+      justify-content:space-evenly;
+    }
+    section img{
+      max-height:300px;
+      padding:10px;
+    }
+    th{
+      font-size:16px;
+    }
+    td{
+      font-size:14px;
+    }
+.review{
+  justify-content:space-evenly;
+  align-items:stretch;
+}
+.box{
+  width:33%;
+}
+.what2{
+  display:block;
+}
+    footer ul{
+      display:flex;
+      justify-content:space-evenly;
+      margin:10px;
+    }
+    footer li img{
+      max-width:30%;
+    }
+
+}
+@media only screen and (min-width:900px){
+  nav{
+    width:100%;
+    justify-content: space-around;
+  }
+
+  nav ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  nav li{
+    font-size:15px;
+  }
+  .opening{
+    font-size:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    display:flex;
+    justify-content:space-evenly;
+  }
+  footer ul{
+    display:flex;
+    justify-content:space-evenly;
+    margin:10px;
+  }
+  footer li img{
+    max-width:30%;
+  }
+}
